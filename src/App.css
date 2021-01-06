@@ -341,7 +341,7 @@ nav ul li {
 }
 
 .portfolio-image-box:hover .overflow {
-  opacity: 60%;
+  opacity: 80%;
   transition: 0.3s ease-in-out;
 }
 
@@ -360,10 +360,26 @@ nav ul li {
   cursor: pointer;
 }
 
-/* ------------------------- OVERFLOW BOX ---------------------- */
+/* ------------------------- OVERFLOW BOX POPUPBOX ---------------------- */
 .portfolio-image-popupbox {
-  width: 45rem;
+  width: 30rem;
   padding: 0 0.5rem;
+}
+
+hr {
+  margin: 0 0 10px 0;
+}
+
+b, strong{
+  padding: 0 0 0 8px;
+}
+
+.link-popup {
+  padding: 0px 0 0 8px;
+}
+
+.summary-popup {
+  padding: 8px 0 0 8px;
 }
 
 .hyper-link {
@@ -372,4 +388,35 @@ nav ul li {
 }
 .hyper-link:hover {
   color: var(--primary-red);
+}
+
+.popupbox-content {
+  padding: 21px 35px 0px;
+}
+
+/* -------------------MEDIA FOR POPUPS PORTFOLIO --------------------- */
+
+@media(max-width: 768px) {
+  .popupbox-wrapper {
+    height: 50% !important;
+  }
+  .portfolio-image-popupbox {
+    width: 50%;
+  }
+}
+@media(max-width: 570px) {
+  .popupbox-wrapper {
+    height: 50% !important;
+  }
+  .portfolio-image-popupbox {
+    width: 50%;
+  }
+}
+@media(max-width: 280px) {
+  .popupbox-wrapper {
+    height: 50% !important;
+  }
+  .portfolio-image-popupbox {
+    width: 30%;
+  }
 }

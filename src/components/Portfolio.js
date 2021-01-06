@@ -24,6 +24,7 @@ const Portfolio = () => {
     const openPopupbox = () => {
       const content = (
         <>
+          <div>
             <b>{a.desc}</b>{" "}
             <hr/>
           <img
@@ -31,8 +32,10 @@ const Portfolio = () => {
             src={a.name}
             alt={a.desc}
           />
+          </div>
+          <h5 className="summary-popup">{a.summary}</h5>
           <a className="hyper-link" onClick={() => window.open(a.link)}>
-            Click here to go to site
+            <p className="link-popup">Click here to go to site</p> 
           </a>
         </>
       );

@@ -18,62 +18,74 @@ const projectsInfo = [
   {
     name:  map,
     link: 'https://jcgooglemapsreplica.netlify.app/',
-    desc: 'Google map clone project'
+    desc: 'Google map clone project',
+    summary: 'This app recreates a functional GPS system'
   },
   {
     name:  tindog,
     link: 'https://tindogclone.netlify.app/',
-    desc: 'Tindog clone project'
+    desc: 'Tindog clone project',
+    summary: 'Tinder for dogs'
   },
   {
     name:  rememberSeq,
     link: 'https://rememberthecolor.netlify.app/',
-    desc: 'Remember the sequence game'
+    desc: 'Remember the sequence game',
+    summary: 'remember the sequence of the colors, with sounds too'
   },
   {
     name:  drumkit,
     link: 'https://browserdrumkit.netlify.app/',
-    desc: 'Drumkit game'
+    desc: 'Drumkit game',
+    summary:'make some beats!'
   },
   {
     name:  interactiveparticles,
     link: 'https://interactiveparticles.netlify.app/',
-    desc: 'Interactive particles'
+    desc: 'Interactive particles',
+    summary: 'this is just a cool effect when hovering with your mouse'
   },
   {
     name:  generativeArt,
     link: 'https://generativeart.netlify.app/',
-    desc: 'Generative Art project'
+    desc: 'Generative Art project',
+    summary: 'click and drag to draw whatever you want'
   },
   {
     name:  gorjeo,
     link: 'https://gorjeo.netlify.app/',
-    desc: 'Gorjeo project'
+    desc: 'Gorjeo project',
+    summary: 'last project for the bootcamp at General Assembly'
   },
   {
     name:  spartikus,
     link: 'https://sportikus.netlify.app/',
-    desc: 'Spartikus project'
+    desc: 'Spartikus project',
+    summary: 'third project for the bootcamp at General Assembly'
   },
   {
     name:  stooltracker,
     link: 'https://stooltracker.netlify.app/',
-    desc: 'Stool Tracker project'
+    desc: 'Stool Tracker project',
+    summary: 'second project for the bootcamp at General Assembly'
   },
   {
     name:  weatherteller,
     link: 'https://theweatherteller.netlify.app/',
-    desc: 'Weather Teller project'
+    desc: 'Weather Teller project',
+    summary: 'my very first project for the bootcamp at General Assembly'
   },
   {
     name:  todos,
     link: 'https://juancamachotodoapp.netlify.app/',
-    desc: 'Todos project'
+    desc: 'Todos project',
+    summary: 'second side project to train skills'
   },
   {
     name:  calc,
     link: 'https://calculator-jc.netlify.app/',
-    desc: 'Calculator project'
+    desc: 'Calculator project',
+    summary: 'first side project to train my skills'
   },
   
 ]
