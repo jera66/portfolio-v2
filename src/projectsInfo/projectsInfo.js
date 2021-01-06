@@ -6,7 +6,7 @@ import drumkit from "../image/projectsicon/drumkit.png";
 import interactiveparticles from "../image/projectsicon/interactiveparticles.gif";
 import generativeArt from "../image/projectsicon/generative_art.png";
 import gorjeo from "../image/projectsicon/gorjeo3.jpg";
-import spartikus from "../image/projectsicon/spartikus.png";
+import spartikus from "../image/projectsicon/spartikus2.jpg";
 import stooltracker from "../image/projectsicon/stooltracker.jpg";
 import weatherteller from "../image/projectsicon/weatherteller.jpg";
 import todos from "../image/projectsicon/todos.png";

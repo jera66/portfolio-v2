@@ -319,8 +319,8 @@ nav ul li {
 .portfolio-image {
   width: 15rem;
   border: 1px solid var(--primary-gray);
-  padding: 0 0.5rem;
-  object-fit: cover;
+  /* padding: 0 0.5rem; */
+  /* object-fit: cover; */
 }
 
 .portfolio-image-box {

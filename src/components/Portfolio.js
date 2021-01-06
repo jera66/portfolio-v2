@@ -40,13 +40,11 @@ const Portfolio = () => {
     };
 
     return (
-      <div key={idx} className="image-box-wrapper row justify-content-center">
-        <div className="portfolio-image-box" onClick={openPopupbox}>
+        <div key={idx} className="portfolio-image-box" onClick={openPopupbox}>
           <img className="portfolio-image" src={a.name} alt={a.desc} />
           <div className="overflow"></div>
           <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
         </div>
-      </div>
     );
   });
 
@@ -54,7 +52,9 @@ const Portfolio = () => {
     <div className="portfolio-wrapper">
       <div className="container">
         <h1 className="text-uppercase text-center py-5">Portfolio</h1>
+        <div className="image-box-wrapper row justify-content-center">
         {mappedProjects}
+        </div>
       </div>
       <PopupboxContainer {...popupboxConfig} />
     </div>
