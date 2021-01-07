@@ -72,7 +72,7 @@ nav ul li {
   background-size: cover;
   background-position: center;
   height: 100vh;
-  opacity: 80%;
+  /* opacity: 80%; */
 }
 
 .main-info {
