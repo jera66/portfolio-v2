@@ -5,7 +5,6 @@ import { faSearchPlus } from "@fortawesome/free-solid-svg-icons";
 // REACT POPUPBOX
 import {
   PopupboxManager,
-  popupboxContainer,
   PopupboxContainer,
 } from "react-popupbox";
 import "react-popupbox/dist/react-popupbox.css";
@@ -34,7 +33,7 @@ const Portfolio = () => {
           />
           </div>
           <h5 className="summary-popup">{a.summary}</h5>
-          <a className="hyper-link" onClick={() => window.open(a.link)}>
+          <a href="a" className="hyper-link" onClick={() => window.open(a.link)}>
             <p className="link-popup">Click here to go to site</p> 
           </a>
         </>
