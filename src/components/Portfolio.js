@@ -33,7 +33,7 @@ const Portfolio = () => {
           />
           </div>
           <h5 className="summary-popup">{a.summary}</h5>
-          <a className="hyper-link" onClick={() => window.open(a.link)}>
+          <a href="https://juancamachoportfolio.netlify.app/" className="hyper-link" onClick={() => window.open(a.link)}>
             <p className="link-popup">Click here to go to site</p> 
           </a>
         </>
