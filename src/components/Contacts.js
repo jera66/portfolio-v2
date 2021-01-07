@@ -36,10 +36,10 @@ const Contacts = () => {
   }
 
   return (
-      <div className="contacts">
+      <div id="contact" className="contacts">
         <div className="text-center">
         <h1>contact me</h1>
-        <p>Please fill out the form and describe your project, and ill contact you as soon as possible</p>
+        <p>Please fill out the form and describe your project, and ill contact you as soon as possible or email me at JuanCamachopers@hotmail.com</p>
         <span className="success-message">{successMessage}</span>
         </div>
         <div className="container">

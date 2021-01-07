@@ -56,7 +56,7 @@ nav ul li {
   }
 }
 
-.navbar-nav > li > a.active, .navbar-nav > li > a.active:focus {
+.navbar-nav > li > a.active, .navbar-nav > li > a.focus {
   border-top: 3px solid var(--primary-white);
 }
 
@@ -71,7 +71,7 @@ nav ul li {
   background: url(./image/back2.jpg), no-repeat;
   background-size: cover;
   background-position: center;
-  height: 90vh;
+  height: 100vh;
   opacity: 80%;
 }
 
@@ -517,4 +517,26 @@ textarea.input.form-control {
   .contacts p {
     padding: 0 0.4rem;
   }
+}
+
+/* ********************* FOOTER ******************** */
+.footer {
+  background: var(--primary-black);
+  color: var(--primary-dark-gray);
+  padding: 3rem;
+}
+
+.footer a {
+  text-decoration: none;
+  color: var(--primary-dark-gray);
+}
+
+.footer a:hover {
+  text-decoration: none;
+  color: var(--primary-hover-red);
+  cursor: pointer;
+}
+
+.footer p {
+  margin-bottom: 0;
 }
