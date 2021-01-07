@@ -10,8 +10,6 @@ const Contacts = () => {
   const templateID = `${process.env.REACT_APP_TEMPLATEID}`;
   const userID = `${process.env.REACT_APP_USERID}`;
 
-  console.log(serviceID);
-
   const onSubmit = (data, r) => {
     sendEmail(
       serviceID,
