@@ -12,7 +12,7 @@ const Experience = () => {
           <div className="marker"></div>
             <div className="timeline-content">
               <h3>DEC-JAN 2020-2021</h3>
-              <p>started side projects and taking more courses.</p>
+              <p>started side projects and finished Advanced CSS and Sass course (50 hours)</p>
             </div>
         </div>
 
@@ -20,7 +20,7 @@ const Experience = () => {
           <div className="marker"></div>
             <div className="timeline-content">
               <h3>NOV-DEC 2020</h3>
-              <p>Finished taking Advanced Javascript course and React course</p>
+              <p>Finished taking Advanced Javascript course and React course (110 hours)</p>
             </div>
         </div>
 
@@ -28,7 +28,7 @@ const Experience = () => {
           <div className="marker"></div>
             <div className="timeline-content">
               <h3>OCT-NOV 2020</h3>
-              <p>Finished my second bootcamp course at udemy with instructor Angela Yu</p>
+              <p>Finished my second bootcamp (100 hours) course at udemy with instructor Angela Yu</p>
             </div>
         </div>
 
@@ -36,7 +36,7 @@ const Experience = () => {
           <div className="marker"></div>
             <div className="timeline-content">
               <h3>AUG-OCT 2020</h3>
-              <p>Finished my first fulltime coding bootcamp at General Assembly, NY</p>
+              <p>Finished my first fulltime coding bootcamp (600+ hours) at General Assembly, NY</p>
             </div>
         </div>
 

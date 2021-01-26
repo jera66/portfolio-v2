@@ -1,4 +1,5 @@
 //add project on top for latest
+import portfoliov1 from "../image/projectsicon/portfoliov1.JPG";
 import map from "../image/projectsicon/map.png";
 import tindog from "../image/projectsicon/tindog.png";
 import rememberSeq from "../image/projectsicon/remember-seq.png";
@@ -15,6 +16,12 @@ import calc from "../image/projectsicon/calc.png";
 //add project on top for latest
 
 const projectsInfo = [
+  {
+    name:  portfoliov1,
+    link: 'https://juancamachoportfolio-first.netlify.app/',
+    desc: 'First Version of my portfolio',
+    summary: 'When i finished my first bootcamp'
+  },
   {
     name:  map,
     link: 'https://jcgooglemapsreplica.netlify.app/',
