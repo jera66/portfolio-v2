@@ -33,6 +33,7 @@ const Portfolio = () => {
           />
           </div>
           <h5 className="summary-popup">{a.summary}</h5>
+          <h5 className="summary-popup">{a.summary2}</h5>
           <p className="hyper-link" onClick={() => window.open(a.link)}>
             <p className="link-popup">Click here to go to site</p> 
           </p>

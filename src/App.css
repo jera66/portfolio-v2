@@ -380,7 +380,10 @@ b, strong{
 }
 
 .summary-popup {
-  padding: 8px 0 0 8px;
+  padding: 10px 0 0 8px;
+}
+.popupbox-content h5:last-of-type{
+  padding: 0 0 0 8px;
 }
 
 .hyper-link {
