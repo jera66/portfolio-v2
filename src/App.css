@@ -45,7 +45,7 @@ nav ul li {
 .navbar-brand {
   max-width: 17.25rem;
   padding: 0 !important;
-  color: #fff !important;
+  color: var(--primary-white) !important;
   font-weight: 700;
   /* height: 6rem !important; */
 }
@@ -91,7 +91,7 @@ nav ul li {
 }
 
 .main-info h1 {
-  color: #fff;
+  color: var(--primary-white);
   text-transform: uppercase;
 }
 

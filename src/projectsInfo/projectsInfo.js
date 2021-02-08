@@ -1,4 +1,5 @@
 //add project on top for latest
+import chat from '../image/projectsicon/9chat.gif'
 import touringNat from '../image/projectsicon/touringnat.gif';
 import portfoliov1 from "../image/projectsicon/portfoliov1.JPG";
 import map from "../image/projectsicon/map.png";
@@ -17,6 +18,13 @@ import calc from "../image/projectsicon/calc.png";
 //add project on top for latest
 
 const projectsInfo = [
+  {
+    name:  chat,
+    link: 'https://chat-app-juancamacho.netlify.app/',
+    desc: '9 Chat',
+    summary: 'An app to chat using Firebase as a databse',
+    summary2: 'React'
+  },
   {
     name:  touringNat,
     link: 'https://touringnat.netlify.app/',
