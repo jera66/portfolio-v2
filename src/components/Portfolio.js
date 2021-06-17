@@ -55,6 +55,7 @@ const Portfolio = () => {
     <div id="portfolio" className="portfolio-wrapper">
       <div className="container">
         <h1 className="text-uppercase text-center py-5">Portfolio</h1>
+        <p className="text-center">This is my github page <a href="https://github.com/Juan321654" target="_blank">https://github.com/Juan321654</a></p>
         <div className="image-box-wrapper row justify-content-center">
         {mappedProjects}
         </div>
