@@ -14,10 +14,34 @@ import stooltracker from "../image/projectsicon/stooltracker.jpg";
 import weatherteller from "../image/projectsicon/weatherteller.jpg";
 import todos from "../image/projectsicon/todos.png";
 import calc from "../image/projectsicon/calc.png";
+import udemyPortfolio from '../image/projectsicon/udemyPortfolio.png'
+import naujcommerce from '../image/projectsicon/naujcommerce.png'
+import decomelos from '../image/projectsicon/decomelos.png'
 
 //add project on top for latest
 
 const projectsInfo = [
+  {
+    name:  naujcommerce,
+    link: 'https://naujcommerce.netlify.app/',
+    desc: 'Nauj Commerce',
+    summary: 'Just an e-commerce site',
+    summary2: 'React'
+  },
+  {
+    name:  udemyPortfolio,
+    link: 'https://juancamachoudemyportfolio.netlify.app/',
+    desc: 'Tutorial I made at udemy.com',
+    summary: 'https://www.udemy.com/course/build-a-portfolio-with-reactjs/',
+    summary2: 'React'
+  },
+  {
+    name:  decomelos,
+    link: 'https://decomelos.netlify.app/',
+    desc: 'Page for a client',
+    summary: 'Page for a client',
+    summary2: 'React'
+  },
   {
     name:  chat,
     link: 'https://chat-app-juancamacho.netlify.app/',

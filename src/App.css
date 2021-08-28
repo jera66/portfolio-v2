@@ -320,8 +320,9 @@ nav ul li {
 .portfolio-image {
   width: 15rem;
   border: 1px solid var(--primary-gray);
+  height: 8rem;
   /* padding: 0 0.5rem; */
-  /* object-fit: cover; */
+  object-fit: cover;
 }
 
 .portfolio-image-box {
