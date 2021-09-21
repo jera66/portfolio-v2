@@ -25,3 +25,5 @@ yarn-error.log*
 _cacache
 _locks
 _logs
+
+.eslintcache
