@@ -17,6 +17,7 @@ import calc from "../image/projectsicon/calc.png";
 import udemyPortfolio from '../image/projectsicon/udemyPortfolio.png'
 import naujcommerce from '../image/projectsicon/naujcommerce.png'
 import decomelos from '../image/projectsicon/decomelos.png'
+import tictactie from '../image/projectsicon/tictactoe.png'
 
 //add project on top for latest
 
@@ -32,7 +33,14 @@ const projectsInfo = [
     name:  udemyPortfolio,
     link: 'https://juancamachoudemyportfolio.netlify.app/',
     desc: 'Tutorial I made at udemy.com',
-    summary: 'https://www.udemy.com/course/build-a-portfolio-with-reactjs/',
+    summary: <a href='https://www.udemy.com/course/build-a-portfolio-with-reactjs/' target="_blank">https://www.udemy.com/course/build-a-portfolio-with-reactjs/</a>,
+    summary2: 'React'
+  },
+  {
+    name:  tictactie,
+    link: 'https://jctic-tac-toe.netlify.app/',
+    desc: 'A game..',
+    summary: 'called tic tac toe',
     summary2: 'React'
   },
   {
