@@ -47,6 +47,14 @@ const Experience = () => {
               <p>Finished my first fulltime coding bootcamp (600+ hours) at General Assembly, NY</p>
             </div>
         </div>
+        <div className="timeline-block timeline-block-right">
+          <div className="marker"></div>
+            <div className="timeline-content">
+              <h3>2011 - 2014</h3>
+              <p>Nassau College -Garden City, NY, 
+56 credits towards associate in Digital technology degree.</p>
+            </div>
+        </div>
 
       </div>
     </div>

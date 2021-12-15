@@ -38,8 +38,8 @@ const Services = () => {
 
             <div className="col-md-3 col-sm-6">
               <div className="box">
-                <div className="circle"><DevIcon className="icon" icon="html5"/></div>
-                <h3>HTML</h3>
+                <div className="circle"><DevIcon className="icon" icon="python"/></div>
+                <h3>Python</h3>
               </div>
             </div>
 
