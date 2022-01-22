@@ -18,10 +18,18 @@ import udemyPortfolio from "../image/projectsicon/udemyPortfolio.png";
 import naujcommerce from "../image/projectsicon/naujcommerce.png";
 import decomelos from "../image/projectsicon/decomelos.png";
 import tictactie from "../image/projectsicon/tictactoe.png";
+import budgets from '../image/projectsicon/budgets.png';
 
 //add project on top for latest
 
 const projectsInfo = [
+  {
+    name: budgets,
+    link: "https://jc-budget.netlify.app/",
+    desc: "Budget app",
+    summary: "Budget app site, save data using local storage",
+    summary2: "React",
+  },
   {
     name: naujcommerce,
     link: "https://naujcommerce.netlify.app/",
