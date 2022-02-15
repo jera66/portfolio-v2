@@ -18,7 +18,8 @@ import udemyPortfolio from "../image/projectsicon/udemyPortfolio.png";
 import naujcommerce from "../image/projectsicon/naujcommerce.png";
 import decomelos from "../image/projectsicon/decomelos.png";
 import tictactie from "../image/projectsicon/tictactoe.png";
-import budgets from '../image/projectsicon/budgets.png';
+import oaFinancial from "../image/projectsicon/oafinancial.png";
+import budgets from "../image/projectsicon/budgets.png";
 
 //add project on top for latest
 
@@ -29,6 +30,21 @@ const projectsInfo = [
     desc: "Budget app",
     summary: "Budget app site, save data using local storage",
     summary2: "React",
+  },
+  {
+    name: oaFinancial,
+    link: "https://oafinan.netlify.app/",
+    desc: "Project for OA Financial",
+    summary: (
+      <a
+        href="https://www.oldamericanfinancial.com/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        https://www.oldamericanfinancial.com/
+      </a>
+    ),
+    summary2: "They used my design",
   },
   {
     name: naujcommerce,
