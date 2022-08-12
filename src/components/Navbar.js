@@ -1,4 +1,4 @@
-import React from 'react
+import React from 'react'
 import {Link} from 'react-scroll';
 // REACT FONTAWESOME IMPORTS
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
